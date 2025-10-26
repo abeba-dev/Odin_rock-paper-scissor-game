@@ -76,7 +76,7 @@ const playGame = function () {
   let humanScore = 0;
   let computerScore = 0;
 
-  for (let i = 1; i <= 3; i++) {
+  for (let i = 1; i <= 5; i++) {
     console.log(`🎮 Round ${i}`);
     const humanSelection = getHumansChoice();
     const computerSelection = getComputerChoice();
