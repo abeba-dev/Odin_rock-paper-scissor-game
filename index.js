@@ -24,6 +24,10 @@ function getComputerChoice() {
 
 function getHumansChoice() {
   let input = prompt("Rock,paper or sccisor");
+  if (typeof input !== "string") {
+    alert("please Enter a value");
+    input = prompt("Rock,paper or sccisor");
+  }
   let userInput = input.toLowerCase();
 
   if (
